@@ -1,7 +1,10 @@
 import streamlit as st
 
 st.title('GBMS Bank Mumbai,India')
-options=st.sidebar.selectbox('Bank with us!',('Savings Account','Current Account','Demat Acount','Personal Loan','Credit Card','Business Loan','Home Loan','Two Wheeler Loan','Car Loan'))
+option1=st.sidebar.selectbox('Open an Account',('Savings Account','Current Account'))
+option2=st.sidebar.selectbox('Bank with us',('Personal Loan','Credit Card','Business Loan','Home Loan','Two Wheeler Loan','Car Loan'))
+option3=st.sidebar.selectbox('Trading with us',('Demat Acount','Securities Trading'))
+
 st.write("Welcome to GBMS Bank")
 st.info('Loan Calculator')
 st.selectbox('Employment Status',('Salaried','Self Employed'))
