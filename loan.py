@@ -1,11 +1,13 @@
 import streamlit as st
 
 st.title('GBMS Bank Mumbai,India')
-option=st.sidebar.selectbox('Home',('About us','Mission','Vision','Management','Awards','Contact','Social','Feedback'))
+option=st.sidebar.selectbox('Home',('About us','Mission','Vision','Management','Awards','Contact','Social'))
 option1=st.sidebar.selectbox('Open an Account',('Savings Account','Current Account'))
 option2=st.sidebar.selectbox('Bank with us',('Personal Loan','Credit Card','Business Loan','Home Loan','Two Wheeler Loan','Car Loan'))
 option3=st.sidebar.selectbox('Trading with us',('Demat Acount','Securities Trading'))
 option4=st.sidebar.selectbox('Investor Relations',('AGMs','Reports','Grievances'))
+option5=st.sidebar.selectbox('Support',('Feedback','Customer Support'))
+
 
 
 st.write("Welcome to GBMS Bank")
